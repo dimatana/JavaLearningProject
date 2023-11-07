@@ -13,7 +13,6 @@ public class VariablesAndComments {
         char condition;
         byte numberOfSimCards;
         byte randomAccesMemory;
-
         short productionYear;
 
         int numberOfOwners;
