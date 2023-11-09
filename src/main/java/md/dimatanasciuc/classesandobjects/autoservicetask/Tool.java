@@ -1,9 +1,9 @@
-package md.tekwillacademy.classesandobjects.autoservicetask;
+package md.dimatanasciuc.classesandobjects.autoservicetask;
 
 public class Tool {
-    double price;
-    String name;
-    double weight;
+    public double price;
+    public String name;
+    public double weight;
 
     public Tool(double price){
         this.price = price;
