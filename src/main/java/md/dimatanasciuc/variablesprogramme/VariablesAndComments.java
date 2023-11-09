@@ -1,4 +1,4 @@
-package md.tekwillacademy.variablesprogramme;
+package md.dimatanasciuc.variablesprogramme;
 
 public class VariablesAndComments {
     public static void main(String[] args) {

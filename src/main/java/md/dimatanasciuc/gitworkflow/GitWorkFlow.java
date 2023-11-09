@@ -1,4 +1,4 @@
-package md.tekwillacademy.gitworkflow;
+package md.dimatanasciuc.gitworkflow;
 
 public class GitWorkFlow {
     public static void main(String[] args) {
