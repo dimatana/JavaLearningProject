@@ -31,6 +31,7 @@ public class ExecutionService {
         System.out.println("Familia lui Vasea este: " + customer1.getName());
 
         System.out.println(DataGeneratorUtil.getRandomEmail(10, "gmail.com"));
+        System.out.println(DataGeneratorUtil.getRandomEmail(10, "gmail.com"));
 
 
     }
