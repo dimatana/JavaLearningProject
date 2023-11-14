@@ -27,4 +27,16 @@ public class DataGeneratorUtil {
         String uniqueUUID = UUID.randomUUID().toString();
         return uniqueUUID + "@" + domainName;
     }
+
+    static String getRandomEmail(int maxLenght, String domainName) {
+        String acceptedChars = "ABCDfdsg4325";
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0; i < maxLenght; i++) {
+            int randomIndex = DataGeneratorUtil.getRandomInt(acceptedChars.length());
+            stringBuilder.append(acceptedChars.charAt(randomIndex));
+            System.out.println("As part of iteration [" + i +"] the letter [" + acceptedChars.charAt(randomIndex) + "] was added");
+
+        }
+          return stringBuilder.toString() + "@" + domainName;
+    }
 }

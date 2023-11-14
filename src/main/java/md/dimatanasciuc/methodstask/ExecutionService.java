@@ -30,7 +30,8 @@ public class ExecutionService {
         System.out.println("Virsta lui vasea este: " + customer1.getAge());
         System.out.println("Familia lui Vasea este: " + customer1.getName());
 
-
+        System.out.println(DataGeneratorUtil.getRandomEmail(10, "gmail.com"));
+        System.out.println(DataGeneratorUtil.getRandomEmail(10, "gmail.com"));
 
 
     }
